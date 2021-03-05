@@ -1,0 +1,68 @@
+.navTop {
+  display: flex;
+  justify-content: space-between !important;
+  width: 100%;
+  height: 15vh;
+  background: rgb(248, 247, 247);
+
+}
+
+.textLogo {
+  color: rgb(69, 180, 254);
+}
+
+.custom-btn-theme{
+  background-color: rgb(69, 180, 254);
+  color: white ;
+  font-weight: 600 ;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 13px;
+}
+
+.custom-btn-theme:hover {
+  background-color: rgba(69, 180, 254, 0.9);
+}
+
+.item-mobile{
+   font-size: 0.8rem ;
+    font-weight: 400 !important;
+}
+
+
+.RDV {
+
+    color: rgb(69, 180, 254) !important;
+    font-weight: bold !important;
+    font-size: 1rem;
+}
+
+
+.nav-link {
+    font-weight: 500;
+    font-size: 1rem;
+  color: rgb(69, 180, 254)  !important;
+}
+
+.nav-link.active {
+  color: black !important;
+  padding-bottom: 0.2rem !important;
+  border-bottom: lightgray 1px solid;
+}
+.nav-link:hover {
+  color: black !important;
+}
+
+
+ 
+@media only screen and (min-width: 760px) {
+  .smallScreen {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 759px) {
+  .largeScreen {
+    display: none !important;
+  }
+}

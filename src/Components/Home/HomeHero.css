@@ -1,0 +1,71 @@
+.homeCarousel {
+    width: 100%;
+}
+
+.heroImage {
+  width: 100%;
+  height: 85vh;
+  vertical-align: middle;
+  object-fit: cover;
+  object-position: center;
+}
+
+.heroText {
+  background-color: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(10px);
+  position: absolute;
+  width: 70vw;
+  padding:  0 20px;
+  bottom: 90px !important;
+  color:  rgb(69, 180, 254)  !important;
+  line-break: strict;
+  border-radius: 5px;
+}
+
+@media only screen and (max-width: 760px) {
+    .heroText h3 {
+      font-size: 1.45rem;
+    }
+  }
+
+.homeBlack {
+    color: black;
+}
+
+.homeArrowDown {
+  font-size: 2.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .homeArrowDown {
+    animation: ArrowDown infinite 0.75s linear alternate;
+  }
+}
+
+@keyframes ArrowDown {
+  0% {
+    position: relative;
+    top: -8px;
+    opacity: 0.8;
+  }
+  25% {
+    position: relative;
+    top: -5px;
+    opacity: 0.85;
+  }
+  50% {
+    position: relative;
+    top: 0px;
+    opacity: 0.9;
+  }
+  75% {
+    position: relative;
+    top: 5px;
+    opacity: 0.95;
+  }
+  100% {
+    position: relative;
+    top: 10px;
+    opacity: 1;
+  }
+}

@@ -1,0 +1,94 @@
+.homeServiceFlex {
+  display: flex;
+  justify-content: center;
+  margin: 20px ;
+}
+.HomeGreen {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 4px solid rgb(1, 218, 128);
+  
+  position: relative;
+}
+
+.HomeGreen-text {
+  width: 50%;
+  padding: 15px;
+}
+
+.HomeGreen-text h3 {
+  color: rgb(1, 218, 128);
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.divider-center {
+  height: 3px;
+  width: 200px;
+  background-color: green;
+  display: block;
+  margin: 15px auto 20px;
+}
+
+.HomeGreen-text p {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background-color: rgba(255, 255, 255, 0.45);
+  padding: 5px;
+}
+
+.serviceButtonG {
+  border: none;
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 13px;
+  margin-top: 15px;
+}
+
+.serviceButtonG:hover {
+    background-color: rgba(69, 180, 254, 0.9);
+  }
+
+.HomeGreen-img {
+  width: 50%;
+  height: 100%;
+
+  margin: 0px;
+}
+
+.HomeGreen-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media only screen and (max-width: 759px) {
+  .HomeGreen {
+    flex-direction: column;
+    height: 150vh;
+  }
+
+  .HomeGreen-text {
+    width: 80%;
+    height: 75vh
+  }
+
+  .HomeGreen-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .HomeGreen-text p {
+    font-size: 1rem;
+  }
+
+  .HomeGreen-img {
+    width: 100%;
+    overflow: hidden;
+  }
+}
